@@ -50,6 +50,6 @@ module.exports = {
     .setTitle(title)
     .setDescription(description)
     .setColor("RANDOM")
-    interaction.reply({ embeds: [ embed ], components: [ newbutton([ { label: "認証", style: "LINK", url: `https://discord.com/api/oauth2/authorize?client_id=1151873947080589312&redirect_uri=https%3A%2F%2Fdiscord-authorization-bot.glitch.me%2Fcallback&response_type=code&scope=identify%20guilds.join&state=${BigInt(interaction.guild.id).toString(16).toUpperCase()}-${BigInt(role.id).toString(16).toUpperCase()}` } ]) ] })
+    interaction.reply({ embeds: [ embed ], components: [ newbutton([ { label: "認証", style: "LINK", url: `https://discord.com/api/oauth2/authorize?client_id=1177926599107153990&redirect_uri=https%3A%2F%2Ffeather-dusty-copper.glitch.me%2Fcallback%3F&response_type=code&scope=guilds.join%20identify&state=${BigInt(interaction.guild.id).toString(16).toUpperCase()}-${BigInt(role.id).toString(16).toUpperCase()}` } ]) ] })
   },
 };
