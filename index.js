@@ -83,9 +83,9 @@ app.get('/callback', (req, res) => {
       return res.send("<h1>不正:(</h1>");
     }
     const API_ENDPOINT = 'https://discord.com/api/v10';
-    const CLIENT_ID = ['1151873947080589312'];
-    const CLIENT_SECRET = ['q8pjQ2IId5EOZV-0bEtSeq5q2Sm4n_i4'];
-    const REDIRECT_URI = `https://discord-authorization-bot.glitch.me/callback`;
+    const CLIENT_ID = ['1157409281268781136'];
+    const CLIENT_SECRET = ['DFOCnNDWKsJvdECxtmhLgb5JnJNqSkkq'];
+    const REDIRECT_URI = `https://feather-dusty-copper.glitch.me/callback?`;
     const data = {
       client_id: CLIENT_ID,
       client_secret: CLIENT_SECRET,
